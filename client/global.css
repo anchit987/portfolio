@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@300;400;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@300;400;500&display=swap");
 
 @layer base {
   /**
@@ -108,38 +108,41 @@
 
   body {
     @apply bg-background text-foreground font-inter;
-    font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
   }
 }
 
 @layer components {
   .glow-effect {
-    box-shadow: 0 0 20px rgba(59, 130, 246, 0.3),
-                0 0 40px rgba(59, 130, 246, 0.2),
-                0 0 80px rgba(59, 130, 246, 0.1);
+    box-shadow:
+      0 0 20px rgba(59, 130, 246, 0.3),
+      0 0 40px rgba(59, 130, 246, 0.2),
+      0 0 80px rgba(59, 130, 246, 0.1);
   }
 
   .glow-effect-purple {
-    box-shadow: 0 0 20px rgba(168, 85, 247, 0.4),
-                0 0 40px rgba(168, 85, 247, 0.2),
-                0 0 80px rgba(168, 85, 247, 0.1);
+    box-shadow:
+      0 0 20px rgba(168, 85, 247, 0.4),
+      0 0 40px rgba(168, 85, 247, 0.2),
+      0 0 80px rgba(168, 85, 247, 0.1);
   }
 
   .text-glow {
-    text-shadow: 0 0 10px currentColor,
-                 0 0 20px currentColor,
-                 0 0 40px currentColor;
+    text-shadow:
+      0 0 10px currentColor,
+      0 0 20px currentColor,
+      0 0 40px currentColor;
   }
 
   .gradient-border {
     position: relative;
-    background: linear-gradient(45deg, #3B82F6, #8B5CF6, #3B82F6);
+    background: linear-gradient(45deg, #3b82f6, #8b5cf6, #3b82f6);
     background-size: 300% 300%;
     animation: gradient-shift 3s ease infinite;
   }
 
   .gradient-border::before {
-    content: '';
+    content: "";
     position: absolute;
     inset: 1px;
     background: hsl(var(--card));
@@ -147,8 +150,13 @@
   }
 
   @keyframes gradient-shift {
-    0%, 100% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
+    0%,
+    100% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
   }
 
   .animate-float {
@@ -156,19 +164,30 @@
   }
 
   @keyframes float {
-    0%, 100% { transform: translateY(0px); }
-    50% { transform: translateY(-20px); }
+    0%,
+    100% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
   }
 
   .particle-animation {
-    background: linear-gradient(45deg, #0A0A0A, #1A1A2E, #16213E, #0F3460);
+    background: linear-gradient(45deg, #0a0a0a, #1a1a2e, #16213e, #0f3460);
     background-size: 400% 400%;
     animation: particle-bg 8s ease infinite;
   }
 
   @keyframes particle-bg {
-    0% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
   }
 }
