@@ -419,10 +419,10 @@ export default function Index() {
                     <div>
                       <p className="font-medium">Email</p>
                       <a
-                        href="mailto:alex@example.com"
+                        href="mailto:anchit.gangrade@example.com"
                         className="text-muted-foreground hover:text-neon-blue transition-colors"
                       >
-                        alex@example.com
+                        anchit.gangrade@example.com
                       </a>
                     </div>
                   </div>
@@ -437,7 +437,7 @@ export default function Index() {
                         href="https://github.com"
                         className="text-muted-foreground hover:text-neon-blue transition-colors"
                       >
-                        github.com/alexchen
+                        github.com/anchitgangrade
                       </a>
                     </div>
                   </div>
@@ -452,7 +452,7 @@ export default function Index() {
                         href="https://linkedin.com"
                         className="text-muted-foreground hover:text-neon-blue transition-colors"
                       >
-                        linkedin.com/in/alexchen
+                        linkedin.com/in/anchitgangrade
                       </a>
                     </div>
                   </div>
@@ -508,12 +508,12 @@ export default function Index() {
         <div className="container mx-auto px-6">
           <div className="flex flex-col md:flex-row items-center justify-between">
             <p className="text-muted-foreground">
-              © 2024 Alex Chen. All rights reserved.
+              © 2024 Anchit Gangrade. All rights reserved.
             </p>
 
             <div className="flex space-x-6 mt-4 md:mt-0">
               <a
-                href="mailto:alex@example.com"
+                href="mailto:anchit.gangrade@example.com"
                 className="text-muted-foreground hover:text-neon-blue transition-colors"
               >
                 <Mail className="h-5 w-5" />
