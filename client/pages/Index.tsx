@@ -81,33 +81,51 @@ export default function Index() {
 
   const experience = [
     {
-      company: "Tech Corp",
-      role: "Senior Software Engineer",
-      duration: "2022 - Present",
+      company: "Goldman Sachs",
+      role: "Analyst, Engineering - Payments Platform",
+      duration: "Aug 2024 - Present",
       highlights: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Improved application performance by 40% through optimization",
-        "Mentored 5 junior developers and established coding standards",
+        "Redesigning the legacy Reference Data stack to be cloud-ready with AWS + Spring Boot",
+        "Centralized intercompany logic to streamline reporting and compliance",
+        "Contributed to migration of legacy applications to modern stack, mitigating tech risk findings",
       ],
     },
     {
-      company: "StartupXYZ",
-      role: "Full Stack Developer",
-      duration: "2020 - 2022",
+      company: "Goldman Sachs",
+      role: "Analyst, Engineering - Developer Productivity",
+      duration: "Feb 2024 - Aug 2024",
       highlights: [
-        "Built scalable web applications using React and Node.js",
-        "Implemented CI/CD pipelines reducing deployment time by 60%",
-        "Collaborated with design team to create responsive user interfaces",
+        "Designed and automated workflows for GitHub Copilot onboarding, improving adoption efficiency",
+        "Contributed to firmwide adoption efforts: hackathons, training, open office hours",
+        "Built a notification + deactivation service for inactive users, cutting license costs",
       ],
     },
     {
-      company: "Digital Agency",
-      role: "Frontend Developer",
-      duration: "2019 - 2020",
+      company: "Goldman Sachs",
+      role: "Analyst, Engineering - API Platform",
+      duration: "Jul 2023 - Feb 2024",
       highlights: [
-        "Developed responsive websites for 20+ clients",
-        "Optimized web performance achieving 95+ Lighthouse scores",
-        "Integrated third-party APIs and payment systems",
+        "Developed penetration testing framework for Kong plugins, ensuring compatibility and security",
+        "Proposed and built a POC for tracking API Engine (Kong) instances across the firm",
+        "Maintained Apache Httpd package with 30+ dependencies, supporting business needs and closing tech risk",
+      ],
+    },
+    {
+      company: "Goldman Sachs",
+      role: "Seasonal Intern - API Platform",
+      duration: "Feb 2023 - Jun 2023",
+      highlights: [
+        "Built POC for Envoy Proxy as an API runtime engine",
+        "Developed custom internal plugins to support firm-specific API use cases",
+      ],
+    },
+    {
+      company: "Goldman Sachs",
+      role: "Summer Intern - API Platform",
+      duration: "May 2022 - Jul 2022",
+      highlights: [
+        "Built API analytics dashboard for API Gateway using Elasticsearch, Kibana, AWS, improving monitoring and visibility",
+        "Automated data ingestion + monitoring workflows, reducing manual overhead",
       ],
     },
   ];
