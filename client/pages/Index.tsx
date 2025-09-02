@@ -42,38 +42,38 @@ export default function Index() {
 
   const projects = [
     {
-      title: "E-Commerce Platform",
+      title: "AI Powered ATS-Friendly Resume Builder 🚀",
       description:
-        "Full-stack e-commerce solution with React, Node.js, and Stripe integration.",
+        "Web app that converts existing resumes + context into ATS-friendly CVs. Integrated with LLMs to generate professional summaries and enrich missing details.",
       image: "/placeholder.svg",
-      tech: ["React", "Node.js", "MongoDB", "Stripe"],
+      tech: ["FastAPI", "React", "LLMs", "Python"],
       github: "https://github.com",
       demo: "https://demo.com",
     },
     {
-      title: "Task Management App",
+      title: "API Analytics Dashboard",
       description:
-        "Real-time collaborative task management with WebSocket integration.",
+        "Built API analytics dashboard for API Gateway using Elasticsearch, Kibana, AWS, improving monitoring and visibility at Goldman Sachs.",
       image: "/placeholder.svg",
-      tech: ["React", "Express", "Socket.io", "PostgreSQL"],
+      tech: ["Elasticsearch", "Kibana", "AWS", "Python"],
       github: "https://github.com",
       demo: "https://demo.com",
     },
     {
-      title: "AI Chat Assistant",
+      title: "Kong Plugin Testing Framework",
       description:
-        "Intelligent chatbot using OpenAI API with custom knowledge base.",
+        "Developed penetration testing framework for Kong plugins, ensuring compatibility and security for API Gateway systems.",
       image: "/placeholder.svg",
-      tech: ["Python", "FastAPI", "OpenAI", "Vector DB"],
+      tech: ["Kong", "Python", "Security Testing", "API Gateway"],
       github: "https://github.com",
       demo: "https://demo.com",
     },
     {
-      title: "Data Visualization Dashboard",
+      title: "GitHub Copilot Automation",
       description:
-        "Interactive dashboard for complex data analysis and reporting.",
+        "Designed and automated workflows for GitHub Copilot onboarding, improving adoption efficiency across the firm.",
       image: "/placeholder.svg",
-      tech: ["React", "D3.js", "Python", "Pandas"],
+      tech: ["GitHub", "Automation", "Python", "CI/CD"],
       github: "https://github.com",
       demo: "https://demo.com",
     },
