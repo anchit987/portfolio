@@ -150,10 +150,16 @@ export default function Index() {
                   Software Engineer at Goldman Sachs
                 </h2>
                 <p className="text-xl text-muted-foreground max-w-2xl leading-relaxed">
-                  I specialize in backend development, cloud infrastructure, and automation. I've worked across Payments Platform, API Platform, and Developer Productivity teams, where I've modernized systems, automated workflows, and built scalable solutions.
+                  I specialize in backend development, cloud infrastructure, and
+                  automation. I've worked across Payments Platform, API
+                  Platform, and Developer Productivity teams, where I've
+                  modernized systems, automated workflows, and built scalable
+                  solutions.
                 </p>
                 <p className="text-lg text-muted-foreground max-w-2xl leading-relaxed">
-                  I'm passionate about solving complex engineering problems, designing cloud-ready systems, and creating tools that improve developer productivity.
+                  I'm passionate about solving complex engineering problems,
+                  designing cloud-ready systems, and creating tools that improve
+                  developer productivity.
                 </p>
               </div>
 
@@ -220,26 +226,38 @@ export default function Index() {
             <div className="space-y-6">
               <h2 className="text-4xl font-bold mb-8">Professional Summary</h2>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Software Engineer with experience in building and modernizing large-scale systems at Goldman Sachs. Skilled in Java, Python, Golang, Spring Boot, AWS, Kubernetes, Terraform, and API Gateways (Kong/Envoy).
+                Software Engineer with experience in building and modernizing
+                large-scale systems at Goldman Sachs. Skilled in Java, Python,
+                Golang, Spring Boot, AWS, Kubernetes, Terraform, and API
+                Gateways (Kong/Envoy).
               </p>
               <div className="text-lg text-muted-foreground leading-relaxed">
                 <p className="font-semibold mb-2">Strong track record in:</p>
                 <ul className="space-y-2 ml-4">
                   <li className="flex items-start space-x-2">
                     <span className="w-1.5 h-1.5 bg-neon-blue rounded-full mt-2 flex-shrink-0"></span>
-                    <span>Modernizing legacy platforms to cloud-ready architectures</span>
+                    <span>
+                      Modernizing legacy platforms to cloud-ready architectures
+                    </span>
                   </li>
                   <li className="flex items-start space-x-2">
                     <span className="w-1.5 h-1.5 bg-neon-blue rounded-full mt-2 flex-shrink-0"></span>
-                    <span>Designing developer productivity tools and automations</span>
+                    <span>
+                      Designing developer productivity tools and automations
+                    </span>
                   </li>
                   <li className="flex items-start space-x-2">
                     <span className="w-1.5 h-1.5 bg-neon-blue rounded-full mt-2 flex-shrink-0"></span>
-                    <span>Building scalable, cost-efficient APIs and backend systems</span>
+                    <span>
+                      Building scalable, cost-efficient APIs and backend systems
+                    </span>
                   </li>
                   <li className="flex items-start space-x-2">
                     <span className="w-1.5 h-1.5 bg-neon-blue rounded-full mt-2 flex-shrink-0"></span>
-                    <span>Collaborating in fast-paced engineering projects that drive impact</span>
+                    <span>
+                      Collaborating in fast-paced engineering projects that
+                      drive impact
+                    </span>
                   </li>
                 </ul>
               </div>
@@ -406,15 +424,26 @@ export default function Index() {
 
                     <div className="flex-1 space-y-3">
                       <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between">
-                        <h3 className="text-2xl font-bold text-neon-blue">🎓 Bachelor of Technology</h3>
-                        <span className="text-muted-foreground font-medium">2019 - 2023</span>
+                        <h3 className="text-2xl font-bold text-neon-blue">
+                          🎓 Bachelor of Technology
+                        </h3>
+                        <span className="text-muted-foreground font-medium">
+                          2019 - 2023
+                        </span>
                       </div>
 
-                      <p className="text-xl font-semibold">Computer Science and Engineering</p>
-                      <p className="text-lg text-muted-foreground">Shri G. S. Institute of Technology and Science, Indore</p>
+                      <p className="text-xl font-semibold">
+                        Computer Science and Engineering
+                      </p>
+                      <p className="text-lg text-muted-foreground">
+                        Shri G. S. Institute of Technology and Science, Indore
+                      </p>
 
                       <div className="flex items-center space-x-4 pt-2">
-                        <Badge variant="secondary" className="text-sm font-medium">
+                        <Badge
+                          variant="secondary"
+                          className="text-sm font-medium"
+                        >
                           GPA: 8.04/10
                         </Badge>
                       </div>
