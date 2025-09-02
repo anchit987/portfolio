@@ -200,22 +200,35 @@ export default function Index() {
         <div className="container mx-auto px-6">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
-              <h2 className="text-4xl font-bold mb-8">About Me</h2>
+              <h2 className="text-4xl font-bold mb-8">Professional Summary</h2>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                I'm a passionate Software Engineer with over 5 years of
-                experience building scalable web applications and mobile
-                solutions. I specialize in modern JavaScript frameworks, cloud
-                architecture, and creating exceptional user experiences.
+                Software Engineer with experience in building and modernizing large-scale systems at Goldman Sachs. Skilled in Java, Python, Golang, Spring Boot, AWS, Kubernetes, Terraform, and API Gateways (Kong/Envoy).
               </p>
-              <p className="text-lg text-muted-foreground leading-relaxed">
-                When I'm not coding, you'll find me exploring new technologies,
-                contributing to open source projects, or sharing knowledge
-                through technical writing and mentoring.
-              </p>
+              <div className="text-lg text-muted-foreground leading-relaxed">
+                <p className="font-semibold mb-2">Strong track record in:</p>
+                <ul className="space-y-2 ml-4">
+                  <li className="flex items-start space-x-2">
+                    <span className="w-1.5 h-1.5 bg-neon-blue rounded-full mt-2 flex-shrink-0"></span>
+                    <span>Modernizing legacy platforms to cloud-ready architectures</span>
+                  </li>
+                  <li className="flex items-start space-x-2">
+                    <span className="w-1.5 h-1.5 bg-neon-blue rounded-full mt-2 flex-shrink-0"></span>
+                    <span>Designing developer productivity tools and automations</span>
+                  </li>
+                  <li className="flex items-start space-x-2">
+                    <span className="w-1.5 h-1.5 bg-neon-blue rounded-full mt-2 flex-shrink-0"></span>
+                    <span>Building scalable, cost-efficient APIs and backend systems</span>
+                  </li>
+                  <li className="flex items-start space-x-2">
+                    <span className="w-1.5 h-1.5 bg-neon-blue rounded-full mt-2 flex-shrink-0"></span>
+                    <span>Collaborating in fast-paced engineering projects that drive impact</span>
+                  </li>
+                </ul>
+              </div>
 
               <div className="flex items-center space-x-4 text-muted-foreground">
                 <MapPin className="h-5 w-5 text-neon-blue" />
-                <span>San Francisco, CA</span>
+                <span>Hyderabad, India</span>
               </div>
             </div>
 
