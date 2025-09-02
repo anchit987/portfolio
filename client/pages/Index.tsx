@@ -124,16 +124,18 @@ export default function Index() {
               className={`space-y-8 transition-all duration-1000 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
             >
               <div className="space-y-4">
-                <p className="text-neon-blue text-lg font-medium">Hi, I'm</p>
+                <p className="text-neon-blue text-lg font-medium">👋 Hi, I'm</p>
                 <h1 className="text-5xl lg:text-7xl font-bold bg-gradient-to-r from-foreground via-neon-blue to-neon-purple bg-clip-text text-transparent">
-                  Alex Chen
+                  Anchit Gangrade
                 </h1>
                 <h2 className="text-2xl lg:text-3xl font-semibold text-muted-foreground">
-                  Software Engineer
+                  Software Engineer at Goldman Sachs
                 </h2>
                 <p className="text-xl text-muted-foreground max-w-2xl leading-relaxed">
-                  Crafting clean code and modern digital experiences. Passionate
-                  about building scalable solutions that make a difference.
+                  I specialize in backend development, cloud infrastructure, and automation. I've worked across Payments Platform, API Platform, and Developer Productivity teams, where I've modernized systems, automated workflows, and built scalable solutions.
+                </p>
+                <p className="text-lg text-muted-foreground max-w-2xl leading-relaxed">
+                  I'm passionate about solving complex engineering problems, designing cloud-ready systems, and creating tools that improve developer productivity.
                 </p>
               </div>
 
@@ -156,7 +158,7 @@ export default function Index() {
 
               <div className="flex space-x-6">
                 <a
-                  href="mailto:alex@example.com"
+                  href="mailto:anchit.gangrade@example.com"
                   className="text-muted-foreground hover:text-neon-blue transition-colors"
                 >
                   <Mail className="h-6 w-6" />
@@ -184,7 +186,7 @@ export default function Index() {
                 <div className="absolute inset-0 w-80 h-80 mx-auto rounded-full bg-gradient-to-br from-neon-blue to-neon-purple opacity-20 blur-xl"></div>
                 <img
                   src="/placeholder.svg"
-                  alt="Alex Chen"
+                  alt="Anchit Gangrade"
                   className="absolute top-8 left-1/2 transform -translate-x-1/2 w-64 h-64 rounded-full object-cover border-4 border-neon-blue/30"
                 />
               </div>
