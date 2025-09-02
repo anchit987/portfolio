@@ -28,16 +28,16 @@ export default function Index() {
   }, []);
 
   const techStack = [
-    { name: "JavaScript", icon: Code, color: "text-yellow-400" },
-    { name: "React", icon: Code, color: "text-blue-400" },
-    { name: "Node.js", icon: Server, color: "text-green-400" },
-    { name: "TypeScript", icon: Code, color: "text-blue-300" },
+    { name: "Java", icon: Code, color: "text-orange-500" },
     { name: "Python", icon: Code, color: "text-green-300" },
-    { name: "Docker", icon: Database, color: "text-blue-500" },
+    { name: "Golang", icon: Code, color: "text-blue-400" },
+    { name: "Spring Boot", icon: Server, color: "text-green-500" },
     { name: "AWS", icon: Globe, color: "text-orange-400" },
-    { name: "MongoDB", icon: Database, color: "text-green-500" },
-    { name: "React Native", icon: Smartphone, color: "text-purple-400" },
-    { name: "Machine Learning", icon: Brain, color: "text-pink-400" },
+    { name: "Kubernetes", icon: Database, color: "text-blue-500" },
+    { name: "Terraform", icon: Server, color: "text-purple-400" },
+    { name: "Kong/Envoy", icon: Globe, color: "text-neon-blue" },
+    { name: "Flutter", icon: Smartphone, color: "text-blue-300" },
+    { name: "CI/CD", icon: Server, color: "text-pink-400" },
   ];
 
   const projects = [
