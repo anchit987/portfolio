@@ -390,6 +390,43 @@ export default function Index() {
         </div>
       </section>
 
+      {/* Education Section */}
+      <section className="py-20 bg-card/30">
+        <div className="container mx-auto px-6">
+          <h2 className="text-4xl font-bold text-center mb-16">Education</h2>
+
+          <div className="max-w-3xl mx-auto">
+            <Card className="gradient-border overflow-hidden">
+              <div className="relative z-10">
+                <CardContent className="p-8">
+                  <div className="flex items-start space-x-6">
+                    <div className="flex-shrink-0 w-16 h-16 bg-primary rounded-full flex items-center justify-center glow-effect">
+                      <Brain className="h-8 w-8 text-primary-foreground" />
+                    </div>
+
+                    <div className="flex-1 space-y-3">
+                      <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between">
+                        <h3 className="text-2xl font-bold text-neon-blue">🎓 Bachelor of Technology</h3>
+                        <span className="text-muted-foreground font-medium">2019 - 2023</span>
+                      </div>
+
+                      <p className="text-xl font-semibold">Computer Science and Engineering</p>
+                      <p className="text-lg text-muted-foreground">Shri G. S. Institute of Technology and Science, Indore</p>
+
+                      <div className="flex items-center space-x-4 pt-2">
+                        <Badge variant="secondary" className="text-sm font-medium">
+                          GPA: 8.04/10
+                        </Badge>
+                      </div>
+                    </div>
+                  </div>
+                </CardContent>
+              </div>
+            </Card>
+          </div>
+        </div>
+      </section>
+
       {/* Contact Section */}
       <section className="py-20">
         <div className="container mx-auto px-6">
